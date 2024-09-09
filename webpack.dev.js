@@ -6,7 +6,7 @@ module.exports = merge(common, {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    static: './dist', // Replace contentBase with static
+    static: './src',  // Serve the src folder (including assets)
     open: true,
   },
 });
