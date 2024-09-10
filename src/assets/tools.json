@@ -3,6 +3,10 @@
     { "name": "Webpack" },
     { "name": "Parcel" },
     { "name": "Gulp" },
-    { "name": "Grunt" }
+    { "name": "Grunt" },
+    { "name": "Rollup" },
+    { "name": "Vite" },
+    { "name": "Browserify" },
+    { "name": "Snowpack" }
   ]
 }

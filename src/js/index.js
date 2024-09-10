@@ -2,8 +2,7 @@ import _ from 'lodash';
 import '../styles/main.scss';
 
 document.addEventListener('DOMContentLoaded', () => {
-// src/js/index.js
-fetch('../assets/tools.json')  // Adjust path to go up to src and into assets
+fetch('../assets/tools.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
